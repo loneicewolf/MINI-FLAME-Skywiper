@@ -6,13 +6,16 @@
  (Edit:  ) 
  the 0..0.dll file was actually some file called icsvnt32.ocx - dug deeper and found this:https://securelist.com/miniflame-aka-spe-elvis-and-his-friends/68560/
  
+ 
  +Related to Gauss.
+ 
  
  https://www.virustotal.com/gui/file/907fe5666c52b3bcd3c0b9baa3c8fb5c9eb63edad6b7e75119612fdf5e75bee2/detection
  
  
 
  - From the link: https://securelist.com/miniflame-aka-spe-elvis-and-his-friends/68560/
+
 
 
     Sample Gauss configuration file
@@ -69,6 +72,7 @@
     28
     29
 
+
     Gauss 1.0.8
     ShellNotifyUser
     ShellNotifyUserEx
@@ -77,6 +81,7 @@
     %systemroot%\system32\winshell.ocx
 
     %systemroot%\temp\ws1bin.dat
+
 
 
     Godel
@@ -98,3 +103,4 @@
     %windir%\system32\smdk.ocx
 
     %temp%\~mdk.tmp
+
